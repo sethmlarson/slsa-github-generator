@@ -135,7 +135,7 @@ Untick the `This is a pre-release` option. That's it!
 Update the documentation to recommend using the new version:
 
 ```shell
-$ find . -name "*.md" -exec sed -i "s/v1.0.0/v1.1.1/g" {}
+$ find . -name "*.md" -exec sed -i "s/v1.0.0/v1.1.1/g" {} +
 ```
 
 ## Update the starter workflow
